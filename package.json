@@ -1,17 +1,36 @@
 {
   "name": "comp308-w2019-assignment01",
-  "version": "1.0.0",
-  "description": "COMP308 - Assignment 01 - Portfolio",
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "author": "Bhavna Pulliahgari",
-  "license": "ISC",
   "dependencies": {
-    "bootstrap": "^4.3.0",
-    "font-awesome": "^4.7.0",
-    "jquery": "^3.3.1",
-    "popper.js": "^1.14.7"
-  }
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0"
+  },
+  "description": "Personal Portfolio Project",
+  "main": "server.js",
+  "devDependencies":
+   {
+    "@types/body-parser": "1.17.0",
+    "@types/cookie-parser": "^1.4.1",
+    "@types/express": "^4.16.1",
+    "@types/morgan": "^1.7.35",
+    "@types/node": "^10.12.18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BhavnaP/COMP308-W2019-Assignment01.git"
+  },
+  "author": "Bhavna Pulloiahgari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BhavnaP/COMP308-W2019-Assignment01/issues"
+  },
+  "homepage": "https://github.com/BhavnaP/COMP308-W2019-Assignment01#readme"
 }
