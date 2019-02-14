@@ -10,3 +10,15 @@
   display: block;
   margin: 0 auto;
 }
+
+li img {
+  float: left;
+  margin: 0 15px 0 0;
+}
+li {
+  padding: 10px;
+  overflow: auto;
+}
+h3 {
+  font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+}
